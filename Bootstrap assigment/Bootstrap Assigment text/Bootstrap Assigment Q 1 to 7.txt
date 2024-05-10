@@ -1,0 +1,103 @@
+                                                                                                              Bootstrap Assigment Text
+
+Q.1)What are the advantages of Bootstrap?
+Ans)Advantage of Bootstrap
+        1. It makes coding a breeze
+        2. It has customizable page elements
+        3. It incorporates responsive design elements
+        4.Bootstrap automatically incorporates responsive design into your landing pages.
+        5. It allows you to create pages quickly
+        6. It allows you to add visual components
+        7. It focuses on the user
+        8.It provides you with support
+        9. It has a mobile-first approach
+        
+Q.2)What is Bootstrap Container?How does its work?
+Ans)Bootstrap containers are a fundamental part of the Bootstrap grid system, which is used for creating responsive and 
+        mobile-first web layouts. 
+        Containers are used to wrap site contents and provide consistent padding and margins. They ensure proper alignment
+        and padding of the contentwithin them, and also help in centering the content on the page.
+
+       In Bootstrap, there are two types of containers: .container and .container-fluid. The .container class creates a 
+       responsive fixed-width container, while
+       the .container-fluid class creates a full-width container that spans the entire width of the viewport.
+
+      The way they work is by providing a consistent way to structure and organize content on a web page, making it easier
+      to create responsive and visually appealing layouts across different devices and screen sizes. By using containers, 
+      developers can ensure that their content is properly aligned and spaced, regardless of the device being used to view 
+      the website.
+
+Q:3)What are the default Bootstrap text settings?
+Ans)Bootstrap, a popular front-end framework, provides default text settings that define the typography for various HTML
+        elements. The default text settings in Bootstrap typically include the following:
+
+1. Base Font Size and Line Height:
+   - The base font size is set to 16px (1rem).
+   - The line height is set to 1.5, which means the line height is 1.5 times the font size.
+
+2. Body Text:
+   - The default font family for body text is usually a system font stack like Arial, Helvetica, sans-serif.
+   - The color of body text is typically #212529 (a dark grey).
+
+3. Headings:
+   - Headings (<h1> to <h6>) have varying font sizes and margins by default:
+     - h1: 2.5rem font size (equivalent to 40px).
+     - h2: 2rem font size (equivalent to 32px).
+     - h3: 1.75rem font size (equivalent to 28px).
+     - h4: 1.5rem font size (equivalent to 24px).
+     - h5: 1.25rem font size (equivalent to 20px).
+     - h6: 1rem font size (equivalent to 16px).
+
+4. Font Weight:
+   - Most text is set to a 400 font weight (normal), while bold text typically uses 700 font weight.
+
+5. Link Styles:
+   - Links (<a> tags) by default are styled with the color #0d6efd (a shade of blue) and underlined.
+   - Visited links are styled with #6610f2 (a different shade of blue).
+
+6. Inline Text Elements:
+   - Inline elements like <strong>, <em>, and <small> have predefined styles for font weight and size.
+
+7. Blockquote and Lists:
+   - <blockquote> and <ul>/<ol> elements have specific margins and padding applied for spacing.
+
+Q.5)What do you know about the Bootstrap Grid system?
+Ans)Grid System: Bootstrap Grid System allows up to 12 columns across the page. You can use each of them individually
+        or merge them together for wider columns. You can use all combinations of values summing up to 12. You can use 12 columns
+        each of width 1, or use 4 columns each of width 3 or any other combination. 
+        The Bootstrap grid system has four classes that can be combined to make more flexible layouts:
+                                                       xs (<576px): For Portrait Mobile Phones.
+                                                       sm (>=576px): For Landscapes phones
+                                                       md (>=768px): For Tablets/Phablets
+                                                       lg (>=992px): For Small-sized Desktops/Laptops
+                                                       xl (>=1200px): For Larger-sized Desktops/Laptops
+
+Q.6)What is the difference between Bootstrap 4 and Bootsrap 5?
+Ans)     Difference between Bootstrap 4 and Bootstrap5
+
+                Basis of                                                           Bootstrap 4                                                            Bootstrap5
+              Grid System                                    1)IT has 5 tier(xs,sm,md,lg,xl)                        1)it has six tier(xs,sm,md,lg,xl,xxl)
+                 
+               Color                                              2)it has limited colors.                                      2)it has extra colors added with the look.
+               
+               jquery                                           3)it has jquery and all related plugins.           3)jquery is removed and switched to vanilla js with   
+                                                                                                                                                       some  working plugings.
+             
+             internet Explorer                          4)Bootstrap 4 spports IE,10 and 11.                4)Bootstrap 5 does not supports IE,10 and 11. 
+
+             Staticsite Generator                     5)Bootstrap 4 usesjekyll software.                 5)Boostrap 5 use Hugo software as it is fast 
+                                                                                                                                                         static Generator.
+              Jumbotron                                    6)  it support.                                                      6)it does not support.
+              Navbar                                          7) we have inline-block property and             7) inline-blok property is removed and we will get 
+                                                                         we will get white dropdown as defauit          black dropdown as default for dropdown-menu-dark class.
+                                                                         for dropdown- menu-dark class.
+                                                                        
+Q.7)What is Button Group and what is the class for Button Group?
+Ans)A Button Group in Bootstrap is a group of buttons that are visually grouped together and styled as a cohesive unit. This allows for organizing
+       related buttons into a single unit, making them appear as part of the same control group. Button groups are useful for creating toolbars,
+       segmented button sets, or button-based navigation menus.
+
+       In Bootstrap, the class used for creating a Button Group is .btn-group. This class is applied to a container element (like <div>) that wraps around
+      a set of button elements to create the group effect. The .btn-group class is part of Bootstrap's grid system and button styling rules.
+
+
